@@ -48,17 +48,20 @@ Define your Proxmox host, token, and VM settings.
 ⚠️ This file is ignored by Git to protect secrets.
 
 3. **Initialize Terraform:**
+
    ```bash
    terraform init
    ```
 
-4. Plan and apply Terraform to provision VMs:
+4. **Plan and apply Terraform to provision VMs:**
+
    ```bash
    terraform plan
    terraform apply
    ```
 
-5. Run Ansible to configure VM:
+5. **Run Ansible to configure VM:**
+   
    ```bash
    ansible-playbook -i inventory playbook.yml
    ```
@@ -67,23 +70,24 @@ Define your Proxmox host, token, and VM settings.
 
 ### Notes
 
-***Security Notes***
-Never commit your terraform.tfvars or private keys.
+***Security Notes***<br>
+-Never commit your terraform.tfvars or private keys.
 
-The .gitignore file in this repo prevents accidental commits of sensitive data.
+-The .gitignore file in this repo prevents accidental commits of sensitive data.
 
-**Work In Progress**
+**Work In Progress**<br>
 -Get Test Proxmox server online.
+
 -Determine initial project to test process.
 
-***Future Improvements***
-Automatic SSH key injection via Cloud-Init
+***Future Improvements***<br>
+-Automatic SSH key injection via Cloud-Init
 
-Terraform → Ansible automation (post-provision hook)
+-Terraform → Ansible automation (post-provision hook)
 
-Expanded playbooks for complete application deployment
+-Expanded playbooks for complete application deployment
 
-License
+**License**<br>
 MIT License (coming soon)
 
 Happy automating your home lab!
