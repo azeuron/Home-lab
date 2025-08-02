@@ -1,0 +1,30 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Local override files
+*.tfvars
+*.auto.tfvars
+
+# Crash log files
+crash.log
+
+# Ignore zip files
+*.zip
+
+# Ignore logs
+*.log
+
+# SSH keys and certificates
+*.pem
+*.key
+*.crt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ansible facts cache
+.fact_cache/
