@@ -68,7 +68,7 @@ Define your Proxmox host, token, and VM settings.
 
 ---
 
-### Notes
+## Notes
 
 ***Security Notes***<br>
 -Never commit your terraform.tfvars or private keys.
