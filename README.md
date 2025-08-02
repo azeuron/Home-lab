@@ -11,14 +11,14 @@ This project automates provisioning and configuration of virtual machines on a P
 
 ## Project Structure
 
-terraform-proxmox/
-├── main.tf            # Terraform configuration
-├── variables.tf       # Input variable definitions
-├── terraform.tfvars   # Local variable values (not committed)
-├── playbook.yml       # Ansible playbook for VM configuration
-├── inventory          # Ansible inventory file with VM hosts
-├── .gitignore         # Files to exclude from Git
-└── README.md          # Project documentation
+terraform-proxmox/  <br>
+├── main.tf            # Terraform configuration  <br>
+├── variables.tf       # Input variable definitions  <br>
+├── terraform.tfvars   # Local variable values (not committed)  <br>
+├── playbook.yml       # Ansible playbook for VM configuration  <br>
+├── inventory          # Ansible inventory file with VM hosts  <br>
+├── .gitignore         # Files to exclude from Git  <br>
+└── README.md          # Project documentation  <br>
 
 
 ---
