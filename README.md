@@ -39,7 +39,8 @@ terraform-proxmox/  <br>
 
    ```bash
    git clone https://github.com/azeuron/home-lab.git
-   cd home-lab```
+   cd home-lab
+   ```
 
 2. **Create and edit terraform.tfvars:**
 
@@ -48,16 +49,19 @@ Define your Proxmox host, token, and VM settings.
 
 3. **Initialize Terraform:**
    ```bash
-   terraform init```
+   terraform init
+   ```
 
 4. Plan and apply Terraform to provision VMs:
    ```bash
    terraform plan
-   terraform apply```
+   terraform apply
+   ```
 
 5. Run Ansible to configure VM:
    ```bash
-   ansible-playbook -i inventory playbook.yml```
+   ansible-playbook -i inventory playbook.yml
+   ```
 
 ***Security Notes***
 Never commit your terraform.tfvars or private keys.
