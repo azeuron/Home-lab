@@ -63,10 +63,18 @@ Define your Proxmox host, token, and VM settings.
    ansible-playbook -i inventory playbook.yml
    ```
 
+---
+
+### Notes
+
 ***Security Notes***
 Never commit your terraform.tfvars or private keys.
 
 The .gitignore file in this repo prevents accidental commits of sensitive data.
+
+**Work In Progress**
+-Get Test Proxmox server online.
+-Determine initial project to test process.
 
 ***Future Improvements***
 Automatic SSH key injection via Cloud-Init
