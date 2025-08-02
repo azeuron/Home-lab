@@ -71,21 +71,21 @@ Define your Proxmox host, token, and VM settings.
 ## Notes
 
 ***Security Notes***<br>
--Never commit your terraform.tfvars or private keys.
+- Never commit your terraform.tfvars or private keys.
 
--The .gitignore file in this repo prevents accidental commits of sensitive data.
+- The .gitignore file in this repo prevents accidental commits of sensitive data.
 
 **Work In Progress**<br>
--Get Test Proxmox server online.
+- Get Test Proxmox server online.
 
--Determine initial project to test process.
+- Determine initial project to test process.
 
 ***Future Improvements***<br>
--Automatic SSH key injection via Cloud-Init
+- Automatic SSH key injection via Cloud-Init
 
--Terraform → Ansible automation (post-provision hook)
+- Terraform → Ansible automation (post-provision hook)
 
--Expanded playbooks for complete application deployment
+- Expanded playbooks for complete application deployment
 
 **License**<br>
 MIT License (coming soon)
