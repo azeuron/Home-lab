@@ -39,23 +39,39 @@ terraform-proxmox/
 
    ```bash
    git clone https://github.com/azeuron/home-lab.git
-   cd homelab-iac'''
+   cd home-lab```
 
-2. Create and edit terraform.tfvars:
+2. **Create and edit terraform.tfvars:**
 
 Define your Proxmox host, token, and VM settings.
 ⚠️ This file is ignored by Git to protect secrets.
 
-3. Initialize Terraform:
-   '''bash
-   terraform init'''
+3. **Initialize Terraform:**
+   ```bash
+   terraform init```
 
 4. Plan and apply Terraform to provision VMs:
-   '''bash
+   ```bash
    terraform plan
-   terraform apply'''
+   terraform apply```
 
 5. Run Ansible to configure VM:
-   '''bash
-   ansible-playbook -i inventory playbook.yml'''
+   ```bash
+   ansible-playbook -i inventory playbook.yml```
 
+***Security Notes***
+Never commit your terraform.tfvars or private keys.
+
+The .gitignore file in this repo prevents accidental commits of sensitive data.
+
+***Future Improvements***
+Automatic SSH key injection via Cloud-Init
+
+Terraform → Ansible automation (post-provision hook)
+
+Expanded playbooks for complete application deployment
+
+License
+MIT License (coming soon)
+
+Happy automating your home lab!
