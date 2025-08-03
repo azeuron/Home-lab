@@ -1,3 +1,30 @@
+# Home Lab Hardware
+
+## Current State
+
+Currently I have an older desktop computer that is running Proxmox for VMs that is a temporary setup that I'm treating like my "test" environment.
+
+I'm also using an old enterprise level laptop running Linux Mint as my primary machine for the home lab. Everything will be controlled from there.
+
+The "server" equipment is connected through an 8 port gigabit switch. The laptop is connected via Wifi.
+
+---
+
+## Future State
+
+There are significant hardware upgrades coming in the very near future
+
+- 10 inch "mini" 8U rack setup to house the whole setup.
+- Dedicated switch (gigabit or 2.5gb potentially).
+- Patch Panel for cleaner cable management.
+- 2x Refurbished Lenovo ThinkCentre  M920q Tiny Desktops as my homelab nodes. 
+  - One will be running Proxmox for VMs and Containers exclusively. 
+  - The other will have a eSATA expansion card in order to use an eSATA HDD enclosure to expand storage in order to build a few services including:
+    - A media server running either Jellyfin or Plex.
+    - A self-hosted file storage/management solution similar to Dropbox and the like.
+
+---
+
 # Home Lab Infrastructure as Code (IaC)
 
 ## Overview
