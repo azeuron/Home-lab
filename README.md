@@ -114,6 +114,17 @@ Define your Proxmox host, token, and VM settings.
 
 - Expanded playbooks for complete application deployment
 
+**Future Projects**<br>
+- LLM AI stack built in a VM
+
+- Jellyfin/Plex Server
+
+- Cloud file storage application (self-hosted)
+
+- Home Assistant for home automation featuring NodeRed scripting
+
+- Hosted dashboard homepage with application and resource tracking utilizing services like Grafana to monitor individual system states real-time
+
 **License**<br>
 MIT License (coming soon)
 
