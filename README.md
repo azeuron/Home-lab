@@ -128,4 +128,6 @@ Define your Proxmox host, token, and VM settings.
 **License**<br>
 MIT License (coming soon)
 
+Check back often for updates
+
 Happy automating your home lab!
