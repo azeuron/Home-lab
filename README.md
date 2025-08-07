@@ -115,9 +115,11 @@ Define your Proxmox host, token, and VM settings.
 - Expanded playbooks for complete application deployment
 
 **Future Projects**<br>
+- Self-hosted WordPress blog to document my progress with my homelab projects
+
 - LLM AI stack built in a VM
 
-- Jellyfin/Plex Server
+- Plex Server
 
 - Cloud file storage application (self-hosted)
 
